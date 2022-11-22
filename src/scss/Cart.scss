@@ -1,0 +1,374 @@
+//_Cart.scss
+
+.attributesItemSC, .attributesItemAdd1SC, .attributesItemAdd2SC, .attributesItemSwatchSelectedSC {
+  border: 1px solid #1D1F22;
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  margin: 0 5px 0 0;
+  height: 24px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+}
+
+.attributesItemSCBlack, .attributesItemAdd1SCBlack, .attributesItemAdd2SCBlack {
+  border: 1px solid #1D1F22;
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  margin: 0 5px 0 0;
+  height: 24px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  background-color: black;
+  color: white;
+
+}
+
+.attributesItemSCtext{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  margin: 0 5px;
+}
+
+.attributesItemSwatchSelectedSC{
+  height: 16px;
+  width: 16px;
+  display: inline-block;
+}
+
+.contentImgSC{
+  height: 190px;
+  width: 121px;
+  left: 172px;
+  top: 0;
+  border-radius: 0;
+  object-fit: contain;
+}
+
+#cart-total {
+  font-size: 1.5em;
+  margin-left: 0.5em;
+}
+
+#cart {
+  margin-right: 0;
+  margin-top: 0;
+  color: rgb(220,230,220);
+  cursor: pointer;
+}
+
+#checkout{
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  flex-direction: column;
+  padding: 16px 32px;
+  cursor: pointer;
+  width: 160px;
+  background-color: #5ECE7B;
+  color: white;
+  border: white;
+}
+
+
+#cart-header {
+  width: 130px;
+  height: 26px;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: right;
+  color: #1D1F22;
+  margin-left: -12px;
+}
+
+#cart-title {
+  font-size: 2em;
+}
+
+.caption{
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1D1F22;
+  width: 100%;
+  margin: 8px 70px 8px 0px;
+  text-align: left !important;
+}
+
+.countContentImgSC{
+align-self: stretch;
+text-align: center;
+}
+
+.countContentImgSCNumber{
+width: 8px;
+height: 26px;
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 160%;
+text-align: right;
+color: #1D1F22;
+}
+
+#empty-cart {
+  font-size: 2em;
+  text-align: center;
+  margin: 25px 65px 25px 0;
+}
+
+.groupContentImgSC1, .groupContentImgSC2{
+display: flex;
+width: 140px;
+}
+
+.groupContentImgSC2{
+width: 169px;
+margin-left: 15px;
+
+}
+
+.groupContent{
+display: flex;
+margin-top: 48px;
+}
+
+.galleryAttributesAdd1SCCaption, .galleryAttributesAdd2SCCaption {
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 160%;
+color: #1D1F22;
+  text-align: left;
+  margin: 8px 0 8px 0;
+}
+
+.galleryAttributesAdd1SCCaptionNone {
+display: none;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1D1F22;
+}
+
+.galleryAttributesSC, .galleryAttributesAdd1SC, .galleryAttributesAdd2SC, .galleryAttributesSwatchSC {
+display: flex;
+flex-wrap: wrap
+}
+
+.galleryAttributesSC{
+margin: 8px 0 0 0;
+}
+
+.galleryAttributesSwatchSC{
+margin: 25px 0 0 0;
+}
+
+.galleryAttributesSwatchSCNone{
+  margin: 25px 0 0 0;
+  display:none !important;
+}
+
+#shopping-cart > ul > li:nth-child(2) > div > div.groupContentImgSC1 > div > div.galleryAttributesSwatchSCNone\,galleryAttributesSwatchSCNone\,galleryAttributesSwatchSCNone\,galleryAttributesSwatchSCNone\,galleryAttributesSwatchSCNone\,galleryAttributesSwatchSCNone{
+  display:none !important;
+}
+
+.minusContentImgSC, .plusContentImgSC {
+cursor: pointer;
+border: 1px solid #1D1F22;
+box-sizing: border-box;
+text-align: center;
+margin: 0 5px;
+height: 24px;
+width: 24px;
+padding: 2px !important;
+align-self: stretch;
+left: 0;
+top: 0;
+border-radius: 0;
+}
+
+.modalBodyWrapper > ul > li > div > img {
+width: 55%;
+margin-left:15%;
+}
+
+.plusContentImgSC {
+left: 33.33%;
+right: 33.33%;
+top: 50%;
+bottom: 50%;
+}
+
+.plus_minusContentImgSC{
+flex-grow: 1;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.overlayClosed {
+position: fixed;
+display: none;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;
+background-color: rgba(57, 55, 72, 0.22);
+margin-top: 78px;
+z-index: 1300;
+inset: 0;
+}
+
+.overlayOpened {
+position: fixed;
+overflow: hidden !important;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;
+background-color: rgba(57, 55, 72, 0.22);
+margin-top: 78px;
+z-index: 1300;
+inset: 0;
+}
+
+#shopping-cart > ul{
+display: flex;
+justify-content: space-between;
+  padding: 0 0 20px 0;
+flex-direction: column;
+}
+
+#shopping-cart{
+  top: 78px;
+  height: 677px;
+  position: fixed;
+  overflow-y: auto;
+  background-color: rgb(255, 255, 255);
+  z-index: 3;
+  margin-left: 65%;
+  padding: 32px 0.2% 32px 16px;
+}
+
+
+.shoppingCartItemList {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.shoppingCartItemListTextName {
+width: 136px;
+font-family: 'Raleway', sans-serif;;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 160%;
+display: flex;
+align-items: flex-start;
+color: #1D1F22;
+text-align: left;
+}
+
+.shoppingCartItemListTextPrice{
+font-family: 'Raleway', sans-serif;;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 160%;
+height: 26px;
+color: #1D1F22;
+}
+
+#totals {
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+}
+
+.totals1 {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #1D1F22;
+  width: 282px;
+  white-space: nowrap;
+}
+
+.totals2 {
+display: flex;
+margin: 0 0 0 14px;
+}
+
+.totalsText{
+  width: 100%;
+  height: 19px;
+  margin-left: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #1D1F22;
+  margin-bottom: 43px;
+}
+
+#viewBag{
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  flex-direction: column;
+  padding: 16px 32px;
+  left: 929px;
+  top: 478px;
+  color: black;
+  cursor: pointer;
+  width: 160px;
+  height: 43px;
+  background: #FFFFFF;
+  border: 1px solid #1D1F22;
+  margin-left: -22px;
+  margin-right: 12px;
+  text-decoration: none;
+  text-decoration-line: none;
+
+}
+.viewLink{
+  margin: 0 0 0 0;
+text-decoration: none;
+}

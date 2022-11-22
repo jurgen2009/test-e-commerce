@@ -1,6 +1,7 @@
 {
-  "name": "test-graphql-react-master",
+  "name": "test-e-commerce",
   "version": "0.1.0",
+  "homepage": "https://jurgen2009.github.io/test-e-commerce"
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-throw-expressions": "^7.16.7",
